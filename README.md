@@ -12,3 +12,9 @@ from firma.py import firma_xml
 ...  
 firma_xml(certificado, clave, factura_xml, factura_xml_firmada)
 ```
+* Para Compilar en Windows. Abrir ventana de ordenes:
+```
+pip install pyinstaller
+pip install -r requirements.txt
+pyinstaller -F --onefile firma.py
+
