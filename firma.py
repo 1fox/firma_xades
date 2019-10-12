@@ -3,12 +3,17 @@
 u"""
 Firma facturaE.xml
 @author: juhegue mié ene  9 16:49:47 CET 2019
+https://github.com/juhegue/firma_xades
+
+Minor adaptation
+@author: 1Fox mié oct  9 16:49:47 CET 2019
+https://github.com/1fox/firma_xades
 
 Página para chequear la factura firmada
 http://sedeaplicaciones2.minetur.gob.es/FacturaE/
 """
 
-__version__ = '0.0.1'
+__version__ = '0.0.1a'
 
 import base64
 import datetime
